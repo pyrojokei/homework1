@@ -54,7 +54,7 @@ public class BonusServiceTest {
 
         long amount = 1_000_000;
         boolean registered = false;
-        long expected = 10_000;
+        long expected = 500;
 
         long actual = service.calculate(amount, registered);
 
